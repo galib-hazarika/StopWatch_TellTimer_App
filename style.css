@@ -23,7 +23,7 @@ body {
   max-width: 360px; /*--Typical Mobile width */
   border-radius: 1rem;
   margin: 13rem auto;
-  padding: 2.5rem 0.5rem;
+  padding: 3rem 1.5rem;
 }
 #main-clock {
   font-size: 4rem;
