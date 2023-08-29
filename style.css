@@ -22,7 +22,7 @@ body {
   width: 100%;
   max-width: 360px; /*--Typical Mobile width */
   border-radius: 1rem;
-  margin: 13rem auto;
+  margin: 8rem auto;
   padding: 3rem 1.5rem;
 }
 #main-clock {
