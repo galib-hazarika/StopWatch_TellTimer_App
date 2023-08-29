@@ -1,0 +1,59 @@
+/*-- Few css variables declaration -- */
+:root {
+  --background_primary: rgb(174, 1, 1);
+  --background_sceondary: rgb(5, 194, 169);
+  --font_color: rgb(249, 252, 252);
+  --switch_color: rgb(80, 83, 80);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: var(--background_primary);
+  color: var(--font_color);
+}
+#clock-body {
+  text-align: center;
+  background-color: var(--background_sceondary);
+  width: 100%;
+  max-width: 360px; /*--Typical Mobile width */
+  border-radius: 1rem;
+  margin: 13rem auto;
+  padding: 2.5rem 0.5rem;
+}
+#main-clock {
+  font-size: 4rem;
+  color: var(--font_color);
+  margin-bottom: 1rem;
+}
+/* making switchs flex so that when it srinks it srinks down in a row not get into column */
+#switchs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#switchs button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  color: var(--font_color);
+  background-color: var(--switch_color);
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
+#switchs button:hover {
+  color: var(--font_color);
+  opacity: 0.9;
+}
+#switchs button:active {
+  background-color: var(--background_primary);
+  opacity: 1;
+  color: var(--font_color);
+}
