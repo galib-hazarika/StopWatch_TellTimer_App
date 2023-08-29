@@ -1,2 +1,7 @@
 # StopWatch_TellTimer_App
-This a typical stopwatch
+This timer is divided into 3 section telling time upto hrs and min time is in seconds
+
+###How to interact with the application
+#####Start -- This button helps to start the timer from 0 and so on
+#####Stop --- This button will stop the timer at exact point
+#####Restart --- This button will reset the timer to 0 again
